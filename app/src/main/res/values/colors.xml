@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#6200EE</color>-->
+<!--    <color name="colorPrimaryDark">#3700B3</color>-->
+<!--    <color name="colorAccent">#03DAC5</color>-->
+
+
+    <color name="colorPrimary">#323232</color>
+    <color name="colorPrimaryDark">#282828</color>
+    <color name="colorAccent">#567026</color>
+
+
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorFontPrimary">#BCC1B2</color>
+    <color name="colorFontPrimary2">#f0f0f0</color>
+    <color name="colorFontPrimary3">#8B9FA9</color>
+    <color name="colorFontPrimary4">#D5D9CF</color>
+    <color name="colorFontSecondary">#969696</color>
+    <color name="colorHint" >#F0565662</color>
+    <color name="colorBorder">#696969</color>
+    <color name="colorParent">#E6181833</color>
+    <color name="colorImageFrame">#444756</color>
+
+
+    <color name="colorSkyBlu">#0092cc</color>
+    <color name="colorStormBlue">#087099</color>
+
+    <color name="colorHyperRed">#ff3333</color>
+    <color name="colorBrickRed">#cc3333</color>
+
+    <color name="colorEdit">#454E39</color>
+    <color name="colorDelete">#263238</color>
+
+    <color name="colorSulphurYellow">#dcd427</color>
+    <color name="colorsapGreen">#b7b327</color>
+
+
+    <color name="colorGreen1">#779933</color>
+    <color name="colorGreen2">#5c7829</color>
+    <color name="colorGreen3">#E0567026</color>
+
+
+
+</resources>

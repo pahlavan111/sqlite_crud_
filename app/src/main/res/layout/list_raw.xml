@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_raw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/raw_parent_back"
+        android:padding="8dp">
+
+
+        <TextView
+            android:id="@+id/txt_title_raw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="6dp"
+            android:text="Person Information"
+            android:textColor="@color/colorGreen3"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:id="@+id/txt_tname_raw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_title_raw"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/font"
+            android:text="Name:"
+            android:textColor="@color/colorGreen1"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_tcity_raw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_tname_raw"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/font"
+            android:text="City:"
+            android:textColor="@color/colorGreen1"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_tAge_raw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_tcity_raw"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/font"
+            android:text="Age:"
+            android:textColor="@color/colorGreen1"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_name_raw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_title_raw"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/font"
+            android:layout_toEndOf="@+id/txt_tname_raw"
+            android:layout_toRightOf="@+id/txt_tname_raw"
+            android:textColor="@color/colorFontPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="Behrooz Pahlavan" />
+
+        <TextView
+            android:id="@+id/txt_city_raw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_name_raw"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/font"
+            android:layout_toEndOf="@+id/txt_tname_raw"
+            android:layout_toRightOf="@+id/txt_tname_raw"
+            android:textColor="@color/colorFontPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="Babolsar" />
+
+        <TextView
+            android:id="@+id/txt_Age_raw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_city_raw"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/font"
+            android:layout_toEndOf="@+id/txt_tname_raw"
+            android:layout_toRightOf="@+id/txt_tname_raw"
+            android:textColor="@color/colorFontPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="37" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_prof"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/p01"
+            app:civ_border_width="3dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="0dp"
+            app:civ_border_color="@color/colorImageFrame"/>
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/img_prof"-->
+<!--            android:layout_width="64dp"-->
+<!--            android:layout_height="64dp"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_marginEnd="32dp"-->
+<!--            android:layout_marginRight="32dp"-->
+<!--            android:layout_marginBottom="0dp"-->
+<!--            android:background="@drawable/prof7"-->
+
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--&lt;!&ndash;            <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="61dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="61dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:scaleType="centerCrop"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:srcCompat="@drawable/prof7" />&ndash;&gt;-->
+
+
+<!--        </LinearLayout>-->
+
+
+        <Button
+            android:id="@+id/btn_del"
+            android:layout_width="64dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/img_prof"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn_delete_back"
+            android:text="delet"
+            android:textColor="@color/colorFontPrimary3"
+            android:textSize="9sp" />
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="64dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/img_prof"
+            android:layout_marginTop="12dp"
+            android:layout_toStartOf="@id/btn_del"
+            android:layout_toLeftOf="@id/btn_del"
+            android:background="@drawable/btn_edit_back"
+            android:text="edit"
+            android:textColor="@color/colorFontPrimary4"
+            android:textSize="9sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+

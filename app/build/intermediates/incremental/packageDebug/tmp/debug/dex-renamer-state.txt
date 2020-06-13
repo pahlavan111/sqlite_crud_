@@ -1,0 +1,4 @@
+#Sat Jun 13 10:18:09 IRDT 2020
+base.0=D\:\\Projects\\AndroidStudioProjects\\SqliteCrud\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

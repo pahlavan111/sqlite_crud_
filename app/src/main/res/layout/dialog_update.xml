@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDelete"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_name_update"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edt_name_back"
+        android:gravity="center"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/colorFontPrimary3"
+        android:textColorHint="@color/colorHint"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edt_city_update"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edt_name_back"
+        android:gravity="center"
+        android:hint="Enter your City"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/colorFontPrimary3"
+        android:textColorHint="@color/colorHint"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edt_age_update"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edt_name_back"
+        android:gravity="center"
+        android:hint="Enter your age"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/colorFontPrimary3"
+        android:textColorHint="@color/colorHint"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/btn_update_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/btn_save_back"
+        android:text="update"
+        android:textColor="@color/colorHint"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_cancel_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/btn_show_back"
+        android:text="cancel"
+        android:layout_marginBottom="32dp"
+        android:textColor="@color/colorHint"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

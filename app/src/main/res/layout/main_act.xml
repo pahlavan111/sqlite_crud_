@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#15152F"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Name"
+            android:textColor="@color/colorGreen1"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/edt_name_back"
+            android:textColor="@color/colorFontPrimary"
+            android:hint="Enter your name"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/colorFontSecondary"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_city"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/txtCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="City"
+            android:textColor="@color/colorGreen1"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_city"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/edt_name_back"
+            android:textColor="@color/colorFontPrimary"
+            android:hint="Enter your City"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/colorFontSecondary"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_age"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_city"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/txtage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Age"
+            android:textColor="@color/colorGreen1"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_age"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/edt_name_back"
+            android:textColor="@color/colorFontPrimary"
+            android:hint="Enter your age"
+            android:inputType="number"
+            android:textColorHint="@color/colorFontSecondary"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_save"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/rl_age"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp">
+
+
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorFontPrimary"
+            android:text="save"
+            android:background="@drawable/btn_save_back"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_show"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/rl_save"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+
+
+        <Button
+            android:id="@+id/btn_show"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorFontPrimary"
+            android:text="show"
+            android:background="@drawable/btn_show_back"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_nature"
+        android:layout_marginStart="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="64dp" />
+
+    <ImageView
+        android:id="@+id/img_sun"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_sun"
+        android:layout_marginStart="64dp"
+        android:elevation="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="64dp" />
+
+
+
+    <ImageView
+        android:layout_toRightOf="@+id/img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_botanical"
+        android:elevation="5dp"
+        android:layout_alignParentBottom="true" />
+
+
+
+</RelativeLayout>
